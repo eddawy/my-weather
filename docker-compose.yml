@@ -24,3 +24,5 @@ services:
       - redis
     environment:
       REDIS_HOST: redis
+      WEATHER_API_URL: api.openweathermap.org/data/2.5/weather?
+      APIID: 91717eb549780bd9fe1d11fe52a409b3
